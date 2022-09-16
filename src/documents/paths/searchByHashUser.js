@@ -1,12 +1,12 @@
 export default {
-  '/v1/navigationsession': {
+  '/v1/navigationhash': {
     get: {
-      tags: ['Search By Session_Id'],
+      tags: ['Search By Hash_User'],
       description: '',
       parameters: [
         {
           in: 'query',
-          name: 'session_id',
+          name: 'hash_user',
           required: true
         }
       ],

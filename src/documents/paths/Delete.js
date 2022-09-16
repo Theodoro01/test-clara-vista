@@ -1,7 +1,7 @@
 export default {
-  '/v1/navigationsession': {
-    get: {
-      tags: ['Search By Session_Id'],
+  '/v1/navigationDelete': {
+    delete: {
+      tags: ['Delete'],
       description: '',
       parameters: [
         {

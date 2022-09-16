@@ -10,6 +10,6 @@ const routes = express.Router()
 routes.post('/navigation', validateNavigationController.execute, insertController.execute)
 routes.get('/navigationsession', searchBySessionIdController.execute)
 routes.get('/navigationhash', searchByHashUserController.execute)
-routes.delete('/navigation', deleteController.execute)
+routes.delete('/navigationDelete', deleteController.execute)
 
 export default routes
